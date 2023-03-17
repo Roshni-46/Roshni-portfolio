@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,ol{
+    margin: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+:root{
+--primary-clr:#000000;
+--second-clr:#00263E;
+--banner-height: 600px;
+
+}
+
+/* nav bar starts here */
+nav{
+    background-color: var(--second-clr);
+}
+nav .nav-text {
+    color: white;
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+#mycstomnav ul li a{
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: white;
+padding: 26px 25px;
+text-transform: capitalize;
+transition: .3s;
+}
+#mycstomnav ul li:hover a{
+    font-weight: 700;
+}
+nav .contact{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--second-clr);
+    padding: 10px 15px;
+    background-color: #C1E0EB;
+    text-transform: capitalize;
+    transition: .3s;
+}
+nav .contact:hover{
+   background-color: white;
+   color: var(--primary-clr);
+}
+/* small nav design */
+nav .togglebtn{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+nav #smallmenu .smallmenu li a{
+display: block;
+font-size: 18px;
+color: #00263E;
+font-weight: 400;
+border-bottom: 1px solid #ccc;
+padding:10px 15px ;
+}
+nav #smallmenu .small-contact{
+    padding: 30px 0;
+    text-align: center;
+    transition: .3s;
+}
+nav #smallmenu .contact:hover{
+    background-color: #00263E;
+    color: white;
+}
+/* banner ends here */
+#banner{
+    height: var(--banner-height);
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .row{
+    height: var(--banner-height);
+}
+#banner .banner-cnt{
+    width: 60%;
+}
+#banner .banner-img{
+    width: 40%;
+}
+#banner .banner-img img{
+display: block;
+width: 100%;
+}
+#banner .banner-cnt h1{
+    width: 540px;
+    font-weight: 700;
+font-size: 55px;
+line-height: 64px;
+}
+#banner .banner-cnt p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 466px;
+    padding: 30px 0px;
+    color: #00263E;
+}
+#banner .banner-cnt a{
+    font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+color: #00263E;
+border: 1px solid #00263E ;
+border-radius: 11px;
+padding: 10px 50px;
+margin-top: 15px;
+display: inline-block;
+transition: .3s;
+}
+#banner .banner-cnt:hover a{
+    background-color: #00263E;
+    color: white;
+}
+/* banneer-part ends here */
+/* client part starts here */
+#cilent{
+    padding: 60px 0;
+}
+#cilent .client-card{
+
+    box-shadow:   0px 3px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+#cilent .client-card:last-child{
+    border-right: none;
+}
+#cilent .client-card h3{
+    font-size: 45px;
+    padding: 30px 0 8px 0;
+    color: #00263E;
+}
+
+#cilent .client-card p{
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 30px;
+}
+/* cilent part ends here */
+
+/* platform part start here */
+/* #platform{
+    padding: 60px 0; */
+#platform{
+    background-color: #00263E;
+}
+.platform h2{
+    font-size: 42px;  
+    text-align: center;
+   padding:10px 0px 0px 0px ;
+    
+}
+.platform p{
+    padding-bottom: 30px;
+   text-align: center;
+}
+#platform .platform-card{
+    padding: 40px;
+    box-shadow:   0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+#platform .platform-card a{
+    display: inline-block;
+    color: bisque;
+    padding-left:10px;
+    font-size: 32px;
+
+}
+#platform .platform-card p{
+    padding: 8px 0 8px 10px;
+    font-size: 16px;
+    color: bisque;  
+}
+/* platform ends here */
+/* proect starts here */
+#project{
+    padding: 60px 0;
+}
+#project h2{
+    
+    font-size: 42px;  text-align: center;
+}
+#project p{
+    padding-bottom: 30px;
+   text-align: center;
+}
+#project .project-card{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#project .project-card p{
+    padding: 10px 0;
+   width: 340px;
+  
+}
+/* proect ends here */
+/* hire me starts here */
+#hire{
+    padding-top: 30px;
+    background-color:rgb(233, 235, 240);
+}
+#hire .hire-card h4{
+    color: rgb(22, 22, 243);
+    width: 100px;
+   height: 40px;
+   border: 1px solid;
+   border-radius: 50%;
+   line-height: 40px;
+   text-align: center;
+   font-size: 24px;
+}
+#hire .hire-card h3{
+    font-size: 48px;
+    padding:10px 0 ;
+
+}
+#hire .hire-card h3 span{
+    color: rgb(22, 22, 243);
+
+}
+#hire .hire-card p{
+    font-size: 16px; padding: 10px 0 20px 0;
+}
+#hire .hire-card a{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #00263E;
+    border: 1px solid #00263E ;
+    border-radius: 11px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: .3s;
+    text-transform: capitalize;
+    }
+    #hire .hire-card:hover a{
+        background-color: #00263E;
+        color: white;
+    
+}
+#hire .hire-card2{
+    padding:25px 0px 70px 0px;
+}
+#hire .hire-card2 span{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+#hire .hire-card3 span{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+#hire .hire-card2 h2,
+ .hire-card3 h2{
+    font-size: 24px;
+    color: black;
+   text-transform: capitalize;
+}
+#hire .hire-card2 p
+
+{
+    font-size: 12px;
+    color: grey; padding: 10px 0;
+}
+
+#hire .hire-card3{
+    padding-top: 120px;
+}
+#hire .hire-card3 p{
+    font-size: 12px;
+    color: grey;
+}
+/* hire me ends here */
+#contact{
+    padding: 50px 0px 30px 0px;
+  /* background-color: rgb(201, 197, 197); */
+  background-color:rgb(233, 235, 240);
+}
+.contact h2{
+   
+    font-size: 42px; 
+     text-align: center; 
+     padding-top: 50px;
+}
+.contact p{
+     padding-bottom: 30px;
+    text-align: center;
+}
+#contact .footer-card h3{
+   font-size: 36px;
+   color: #00263E; padding: 25px 0px 10px 0px; 
+   text-align: center; 
+   padding:30px 30px 15px 0px;
+   text-transform: capitalize;
+}
+#contact .footer-card p{
+    font-size: 14px;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+#contact .footer-card h5{
+    padding: 25px 0px 5px 0;
+    font-size: 18px;
+    color: #00263E;
+}
+
+#contact .footer-card input{
+    display: block;
+     padding: 6px;
+     border: none;
+     border-radius: 8px;
+}
+#contact .footer-card .footer a{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    background-color: #00263E;
+    border-radius: 11px;
+    padding: 10px 30px;
+    margin-top: 25px;
+    display: inline-block;
+    transition: .3s;
+    text-transform: capitalize;
+    color: white;
+    }
+    #contact .footer{
+      text-align: right;
+    }
+    #contact .footer-card .footer:hover a{
+        background-color: #00263E;
+        color: white;
+    
+}
+#contact .footer-card .footer-icon ul {
+   text-align: center;
+   padding-right: 110px;
+}
+#contact .footer-card .footer-icon ul li{
+    display: inline-block;
+    padding: 30px 10px;
+}
+#contact .footer-card .footer-icon ul li a{
+    font-size: 28px;
+    color: #00263E;
+}

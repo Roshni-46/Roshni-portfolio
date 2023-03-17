@@ -1,0 +1,206 @@
+/* banner responsive */
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner{
+        height: 500px;
+    }
+    #banner .row{
+        height:500px;
+    }
+}
+
+@media (min-width: 768px) and (max-width :991px){
+    #banner{
+        height: 500px;
+    }
+    #banner .row{
+        height:500px;
+    }
+
+    #banner .banner-cnt h1 {
+        width: 400px;
+    
+        font-size: 40px;
+        line-height: 50px;
+      }
+      #banner .banner-cnt p {
+       
+        font-size: 16px;
+        line-height: 22px;
+        width: 350px;
+        padding: 25px 0;
+  
+      }
+    
+    #banner .banner-cnt a {
+
+      font-size: 16px;
+      line-height: 22px;
+   
+      padding: 5px 20px;
+      margin-top: 15px;
+   
+}
+/* #project .project-card p{
+    padding: 10px 0;
+    width: 100%; 
+   text-align: center
+   ;
+   
+  
+} */
+}
+@media (min-width: 320px) and (max-width :767px){
+    #banner{
+        height: 300px;
+    }
+    #banner .row{
+        height:300px;
+    }
+    
+    #banner .banner-cnt{
+        width: 54%;
+    }
+
+    #banner .banner-img{
+        width: 46%;
+    }
+    #banner .banner-img img{
+        width:100%;
+        height: 180px;
+    }
+
+    #banner .banner-cnt h1 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        /* padding-top: 70px; */
+        width: 180px;
+    }
+    #banner .banner-cnt p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+        width:150px ;
+        padding: 8px 0;
+      
+    }
+    #banner .banner-cnt a {
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 22px;
+        color: #00263E;
+        border: 1px solid #00263E;
+        border-radius: 11px;
+        padding: 5px 10px;
+       
+        display: inline-block;
+        transition: .3s;
+    }
+ /* hire me responsive */
+ #hire .hire-card h3 {
+	font-size: 32px;
+	padding: 10px 0;
+}
+#hire .hire-card p {
+	font-size: 12px;
+	padding: 6px 0 10px 0;
+}
+#hire .hire-card a {
+	font-size: 18px;
+	padding: 5px 20px;
+	margin-top: 15px;
+	display: inline-block;
+    transition: .3s;
+}
+#hire .hire-card2 {
+	padding: 25px 0px 0px 0px;
+}
+#hire .hire-card3 {
+	padding-top: 25px;
+}
+#project .project-card p {
+	padding: 10px 0;
+	width: 300px;
+    font-size: 14px;
+   
+}
+ /* contact responsive */
+ #contact .footer-card .footer-icon ul li{
+    display: inline-block;
+    padding: 5px;
+}
+#contact .footer-card .footer-icon ul li a{
+    font-size: 18px;
+    color: #00263E;
+}
+#contact .footer-card .footer-icon ul {
+    text-align: center;
+    padding-right: 80px;
+ }
+#contact .footer-card h3{
+    font-size: 28px;
+    color: #00263E;
+     
+    text-align: center; 
+    padding:10px 0px 15px 0px;
+    text-transform: capitalize;
+ }
+ #contact .footer-card p{
+     font-size: 12px;
+     width: 250px;
+     margin: 0 auto;
+     padding-bottom: 10px;
+     
+ }
+ #contact .footer-card h5{
+    padding: 15px 0px 5px 0;
+    font-size: 16px;
+    color: #00263E;
+}
+
+#contact .footer-card input{
+    display: block;
+     padding: 4px;
+     border: none;
+     border-radius: 8px;
+}
+#contact .footer-card .footer a{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 29px;
+    background-color: #00263E;
+    border-radius: 11px;
+    padding: 6px 20px;
+    margin-top: 25px;
+    display: inline-block;
+    transition: .3s;
+    text-transform: capitalize;
+    color: white;
+    }
+    #contact .footer{
+      text-align: center;
+    }
+    #contact .footer-card .footer:hover a{
+        background-color: #00263E;
+        color: white;
+    
+}
+.contact h2{
+   
+    font-size: 32px; 
+     text-align: center; 
+     padding-top: 30px;
+}
+#project h2{
+    
+    font-size: 32px; 
+}
+.platform h2{
+    font-size: 32px;  
+}
+#project{
+    padding-bottom: 20px;
+}
+}
+
